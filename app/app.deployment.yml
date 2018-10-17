@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: dvlp-2018
-        image: registry.hub.docker.com/kimschles/dvlp-2018
+        image: kimschles/dvlp-2018:latest
         ports:
         - containerPort: 80
