@@ -4,7 +4,7 @@ metadata:
   name: dvlp-app
 spec:
   minReplicas: 1
-  maxReplicas: 50
+  maxReplicas: 30
   scaleTargetRef:
     apiVersion: extensions/v1beta1
     kind: Deployment

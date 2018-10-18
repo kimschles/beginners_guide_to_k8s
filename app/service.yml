@@ -1,10 +1,12 @@
+# Note: this service doesn't work. Use this command: 
+# kubectl expose deployment dvlp-app -n dvlp-k8s --type="LoadBalancer"
+
 apiVersion: v1
 kind: Service
 metadata:
   name: dvlp-app
   labels:
     app: dvlp-app
-    namespace: dvlp-app
 spec:
   type: LoadBalancer
   ports:
