@@ -9,4 +9,4 @@ spec:
     apiVersion: extensions/v1beta1
     kind: Deployment
     name: dvlp-app
-  targetCPUUtilizationPercentage: 80
+  targetCPUUtilizationPercentage: 75
