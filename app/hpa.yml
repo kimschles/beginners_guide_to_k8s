@@ -1,0 +1,12 @@
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: dvlp-app
+spec:
+  minReplicas: 1
+  maxReplicas: 50
+  scaleTargetRef:
+    apiVersion: extensions/v1beta1
+    kind: Deployment
+    name: dvlp-app
+  targetCPUUtilizationPercentage: 30
