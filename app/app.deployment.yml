@@ -15,5 +15,7 @@ spec:
       containers:
       - name: dvlp-2018
         image: kimschles/dvlp-2018:latest
+        command: ["npm", "start"]
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
