@@ -20,6 +20,7 @@ Develop Denver, October 18, 2018
 ### To Do: 
 
 4. Create a K8s cluster with GKE 
+    * Go to https://cloud.google.com/
     * Create a project 
     * Create a cluster with Google Kubernetes Engine 
     * Connect with Cloud Shell 
