@@ -18,4 +18,4 @@ spec:
         command: ["npm", "start"]
         imagePullPolicy: IfNotPresent
         ports:
-        - containerPort: 80
+        - containerPort: 8080
