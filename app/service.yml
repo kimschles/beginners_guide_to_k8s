@@ -4,6 +4,7 @@ metadata:
   name: dvlp-app
   labels:
     app: dvlp-app
+    namespace: dvlp-app
 spec:
   type: LoadBalancer
   ports:
