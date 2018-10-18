@@ -6,7 +6,6 @@ spec:
   selector:
     matchLabels:
       app: dvlp-app
-  replicas: 2 # tells deployment to run 2 pods matching the template
   template:
     metadata:
       labels:

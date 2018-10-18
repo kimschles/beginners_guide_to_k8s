@@ -12,7 +12,9 @@ spec:
   ports:
     - name: http
       protocol: TCP
-      port: 8080
-      targetPort: http
+      port: 80
+      targetPort: 8080
   selector:
     app: dvlp-app
+
+
