@@ -3,7 +3,7 @@
 Develop Denver, October 18, 2018
 
 ## Steps 
-Prebuilt: 
+### Prebuilt: 
 
 1. Build an app
     * The Node.js app is done! See `package.json`, `index.js`, and the `public` directory 
@@ -16,8 +16,8 @@ Prebuilt:
 3. Push the image to a registry
     * `docker push kimschles/dvlp-2018`
     * [https://hub.docker.com/r/kimschles/dvlp-2018/](https://hub.docker.com/r/kimschles/dvlp-2018/)
---- 
-To Do: 
+ 
+### To Do: 
 
 4. Create a K8s cluster with GKE 
     * Create a project 
