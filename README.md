@@ -36,6 +36,7 @@ Develop Denver, October 18, 2018
     * Horizontal Pod AutoScaler     
         * Test with Apache Bench `ab -n 30000 -c 100 http://[external_ip]:[port]/` 
     * Rolling Updates 
+8. Delete your hpa, service, deployment and cluster!
  
 
 
