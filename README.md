@@ -30,7 +30,7 @@ Develop Denver, October 18, 2018
     * `kubectl apply -f app/namespace.yml` 
     * `kubectl apply -f app/deployment.yml`
 6. Expose the app to the internet
-* `kubectl apply -f app/hpa.yml"` 
+* `kubectl apply -f app/hpa.yml` 
 7. Add some cool K8s stuff 
     * Increase the number of replicas
     * Horizontal Pod AutoScaler     
