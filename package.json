@@ -4,12 +4,11 @@
   "description": "a simple node.js app to deploy to kubernetes",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "Kim Schlesinger",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.3",
-    "nodemon": "^1.18.4"
+    "express": "^4.16.3"
   }
 }
